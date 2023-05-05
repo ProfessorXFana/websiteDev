@@ -1,7 +1,10 @@
 h1{
     font-size: 50px;
 }
-.name-hightlight{
+h2{
+    font-size: 40px;
+}
+.red-hightlight{
     color: crimson;
 
 }
@@ -29,7 +32,8 @@ p{
     background-repeat: no-repeat;
 }
 section{
-    height: 80vh;
+    height: 60vh;
+    padding-bottom: 150px;
 }
 body{
     margin: 0px;
@@ -42,4 +46,35 @@ body{
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+.dream-part{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.single-experience{
+    transition: all 0.3s ease-out 0s;
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    padding: 2%;
+}
+#fullstack{
+    border-left: solid 7px ;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#babystack{
+    border-left: solid 7px ;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+
+.single-experience:hover{
+    transform: translateY(-10px);
 }
