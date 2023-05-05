@@ -56,7 +56,6 @@ body{
     background-image: url(image/exp-bg.png);
     background-position: left;
     background-repeat: no-repeat;
-
 }
 .single-experience{
     transition: all 0.3s ease-out 0s;
@@ -74,7 +73,6 @@ body{
     border-image: linear-gradient(180deg,blue, cyan);
     border-image-slice: 1;
 }
-
 .single-experience:hover{
     transform: translateY(-10px);
 }
