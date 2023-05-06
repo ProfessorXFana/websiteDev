@@ -19,10 +19,8 @@ h2{
 }
 .frontend{
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-}
+ }
 p{
-    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     text-align: justify;
 
